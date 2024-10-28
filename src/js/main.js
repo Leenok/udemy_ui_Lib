@@ -1,1 +1,4 @@
-console.log('Hello!');
+import './lib/lib';
+
+$('.one').hide().show();
+
