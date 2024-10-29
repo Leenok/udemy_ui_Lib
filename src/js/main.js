@@ -4,9 +4,17 @@ import './lib/lib';
 
 // $('.active').addClass('hello', 'add');
 // $('.active').toggleClass('.active');
-$('.active').on('click', sayHello);
-$('button').on('click', sayHello);
+// $('.active').on('click', sayHello);
+// $('button').on('click', sayHello);
 
-function sayHello(){
-    console.log('Hello');
-}
+// console.log($('button').html('hello'));
+
+// function sayHello(){
+//     console.log('Hello');
+// }
+
+$('div').click(function() {
+    console.log($(this).index());
+});
+
+console.log($('.block').find('.active'));
