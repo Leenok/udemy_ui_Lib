@@ -1,9 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import './general/_base.scss';
+@import './general/_variables.scss';
+@import './general/_typography.scss';
+@import './components/ui.scss';
+@import './helpers/classes.scss';
 
-.active{
-    color: green;
+
+.goods{
+    align-items: center;
 }
